@@ -120,9 +120,9 @@ public class Dreidel extends View {
 
     }
     private void changeColor(){
-        int r = random.nextInt(256);
-        int g = random.nextInt(256);
-        int b = random.nextInt(256);
+        int r = random.nextInt(255);
+        int g = random.nextInt(255);
+        int b = random.nextInt(255);
 
         paint.setColor(Color.rgb(r, g, b));
         invalidate();
